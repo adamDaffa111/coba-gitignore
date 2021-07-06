@@ -1,0 +1,8 @@
+.gitignore adalah sebuah file di dalam folder git untuk mengatur folder atau file lain supaya tidak dimasukan ke staging area
+
+.gitignore biasanya digunakan jika di lokal kita ada configurasi,contohnya jika bekerja dengan framework codeigniter maka terdapat file konfigirasi database untuk local mesin kita, jika terbawa ke commit dan kemudain di lakukan push ke remote, otomatis remote kita menggunakan konfigirasi lokal database. dan jika ada irang lain yang memfork source code kita maka file konfigurasi tersebut akan terbawa dan orang tersebut harus melakukan konfigurasi ulang
+
+
+jika ingin mengatahui file" apa saja yang seharusnya berada didalam .gitignore yang sesuai dengan bahasa pemerograman/OS/framework tertentu, kunjungi website :
+    1. gitignore.io 
+    2. github/gitignore
